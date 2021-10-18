@@ -45,6 +45,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 TARGET_VENDOR := xiaomi
 TARGET_VENDOR_PRODUCT_NAME := lancelot
 PRODUCT_BUILD_PROP_OVERRIDES += PRIVATE_BUILD_DESC="lancelot-user 11 RP1A.200720.011 V12.0.1.0.RJCMIXM release-keys"
-
+TARGET_USES_BLUR := true
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
 BUILD_FINGERPRINT := Redmi/lancelot_global/lancelot:11/RP1A.200720.011/V12.0.1.0.RJCMIXM:user/release-keys
